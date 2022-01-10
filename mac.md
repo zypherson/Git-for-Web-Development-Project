@@ -22,8 +22,17 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+Git is a version control system that lets you manage and keep track of your source code history. Github is a cloudbased hosting service that lets ypu manage git repositories.
 2. Why do we create a branch? 
+Branches are good to manage the changes you made to your work
 3. What is the purpose of a pull request? 
+It lets other developers know that you made changes to your repository. 
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+Git checkout
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+git fetch- is the command that tells your local git to retrieve the latest meta-data info from the original 
+git pull- on the other hand does that AND brings (copy) those changes from the remote repository.
+git merge-the git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
 6. What is a merge conflict? How do you resolve a merge conflict? 
+merge conflicts happen when one person edits a file and another person deletes the file, it can be resolved by using the coomand line and text editor.
